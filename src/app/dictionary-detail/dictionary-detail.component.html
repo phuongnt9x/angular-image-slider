@@ -1,0 +1,9 @@
+<h2>Dictionary Detail Page</h2>
+
+<div *ngIf="iword; else tmpl">
+  <p>word: {{iword.word}}  --> mean: {{iword.mean}}</p>
+</div>
+
+<ng-template #tmpl>
+  <h2>Nothing to display</h2>
+</ng-template>
