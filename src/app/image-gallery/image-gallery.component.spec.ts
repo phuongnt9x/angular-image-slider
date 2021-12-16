@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DictionaryDetailComponent } from './dictionary-detail.component';
+import { ImageGalleryComponent } from './image-gallery.component';
 
-describe('DictionaryDetailComponent', () => {
-  let component: DictionaryDetailComponent;
-  let fixture: ComponentFixture<DictionaryDetailComponent>;
+describe('ImageGalleryComponent', () => {
+  let component: ImageGalleryComponent;
+  let fixture: ComponentFixture<ImageGalleryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DictionaryDetailComponent ]
+      declarations: [ ImageGalleryComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DictionaryDetailComponent);
+    fixture = TestBed.createComponent(ImageGalleryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
